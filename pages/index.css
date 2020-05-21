@@ -1,2 +1,6 @@
+/*Шрифт видимо надо тоже импортировать сюда?*/
+@import url(./../fonts/Inter/inter.css);
 @import url(./../blocks/page/page.css);
+@import url(./../blocks/hidden-text/hidden-text.css);
 @import url(./../blocks/header/header.css);
+@import url(./../blocks/lead/lead.css);
