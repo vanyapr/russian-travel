@@ -1,6 +1,17 @@
 .page {
+  /* Суповой набор */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+
   /*Логично задать фон для всей страницы*/
   background: #2A2C2F;
-  /* Как и цвет текста. Тут спорный момент, ведь у страницы могут быть разные темы */
+  /*
+  Как и цвет текста. Тут спорный момент, ведь у страницы могут быть разные темы
+  Но в макете один цвет, как правильно
+   */
   color: #fff;
 }

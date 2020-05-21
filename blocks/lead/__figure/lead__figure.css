@@ -1,0 +1,7 @@
+.lead__figure {
+  max-width: 984px;
+  margin: 64px auto 0;
+  /*Фиксируем высоту контента чтобы добиться совпадения с макетом*/
+  font-size: 0;
+  line-height: 0;
+}

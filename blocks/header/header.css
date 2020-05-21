@@ -6,6 +6,7 @@
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   /*Я бы добавил отступ снизу, чтобы использовать шапку на всех страницах,
   но это не по БЭМ*/
   padding: 28px 48px 0;
