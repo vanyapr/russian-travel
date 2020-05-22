@@ -1,0 +1,8 @@
+.lead__map {
+  position: absolute;
+  width: 95%;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1;
+}

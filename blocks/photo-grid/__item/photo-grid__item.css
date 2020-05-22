@@ -1,0 +1,10 @@
+.photo-grid__item {
+  font-size: 0;
+  line-height: 0;
+  display: inline-block;
+  transition: opacity .2s linear;
+}
+
+.photo-grid__item:hover {
+  opacity: .8;
+}

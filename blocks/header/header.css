@@ -10,4 +10,18 @@
   /*Я бы добавил отступ снизу, чтобы использовать шапку на всех страницах,
   но это не по БЭМ*/
   padding: 28px 48px 0;
+  max-width: 1184px;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 28px 24px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 16px 16px 0;
+  }
 }
