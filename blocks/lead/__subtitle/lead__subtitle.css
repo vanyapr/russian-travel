@@ -16,3 +16,9 @@
     max-width: calc(100% - (16px * 2));
   }
 }
+
+@media screen and (max-width: 270px) {
+  .lead__subtitle {
+    margin-top: 20px;
+  }
+}

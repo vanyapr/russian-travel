@@ -1,0 +1,12 @@
+.place__paragraph {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.place__paragraph + .place__paragraph {
+  margin-top: 24px;
+}
