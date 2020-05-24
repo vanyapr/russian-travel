@@ -5,4 +5,5 @@
   z-index: 2;
   transform: translate(-50%, -50%);
   width: calc(100% - 16px * 2);
+  pointer-events: none;
 }

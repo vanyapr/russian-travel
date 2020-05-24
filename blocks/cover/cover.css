@@ -3,12 +3,35 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__background/cover__background.css);
-@import url(./__overlay/cover__overlay.css);
+@import url(./__link/cover__link.css);
+/*Блок оставлю на всякий случай в проекте*/
+/*@import url(./__overlay/cover__overlay.css);*/
 
 .cover {
   max-width: 1184px;
   margin: 92px auto 0;
   position: relative;
+}
+
+/*
+Задайте затемнение с помощью псевдоэлемента css у родительского блока вместо пустого тега
+*/
+.cover::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #2A2C2F;
+  transition: opacity .3s linear;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.cover:hover::after {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
