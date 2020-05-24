@@ -42,3 +42,10 @@
     grid-row-gap: 32px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place {
+    display: block;
+    margin: 48px 0 0;
+  }
+}

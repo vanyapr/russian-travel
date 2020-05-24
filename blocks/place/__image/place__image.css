@@ -4,3 +4,9 @@
   width: 100%;
   max-width: 100%;
 }
+
+@media screen and (max-width: 320px) {
+  .place__image {
+    margin-top: 32px;
+  }
+}
