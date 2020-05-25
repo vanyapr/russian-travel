@@ -1,9 +1,9 @@
 .cover__text {
-  position: absolute;
-  left: 50%;
-  top: 50%;
+  max-width: calc(100% - 2 * 16px);
   z-index: 2;
-  transform: translate(-50%, -50%);
-  width: calc(100% - 16px * 2);
   pointer-events: none;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  justify-self: center;
+  align-self: center;
 }

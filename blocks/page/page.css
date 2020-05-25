@@ -6,7 +6,6 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-
   /*Логично задать фон для всей страницы*/
   background: #2A2C2F;
   /*
@@ -14,4 +13,5 @@
   Но в макете один цвет, как правильно
    */
   color: #fff;
+  min-width: 320px
 }
